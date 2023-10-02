@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    color: #fff;
 }
 h1{
     text-align: center;
@@ -12,8 +11,15 @@ button{
     right: 50%;
     transform: translate(50%, -50%);
     font-size: 1.5rem;
-    border: none;
+    border: 1px red solid;
+    border-radius: 20px;
+    padding: 10px;
     background: none;
-    color: #fff;
+    color: red;
     cursor: pointer;
+}
+button:hover{
+    color: white;
+    background: black;
+    border: none;
 }
