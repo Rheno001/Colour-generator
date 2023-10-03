@@ -6,5 +6,5 @@ body.style.backgroundColor = 'black';
 button.addEventListener('click', () => {
     const colorIndex = parseInt(Math.random() * color.length);
     body.style.backgroundColor = color[colorIndex];
-    body.style.transition = '1s linear';
+    body.style.transition = '.5s linear';
 });
